@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+flask-cors
+flask-migrate
+python-dotenv
+google-generativeai
+flask-socketio
+eventlet
+pypdf
