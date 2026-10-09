@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+instance/
+
+# Frontend build
+dist/
+dist-ssr/
+build/
+
+# Environment and secrets
+.env
+.env*.local
+!.env.example
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*build_log*.txt
+*build_error*.log
+*error_v*.txt
+*final_error*.txt
+*lint_*.txt
+*lint_output*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
